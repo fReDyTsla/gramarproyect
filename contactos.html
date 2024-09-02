@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stilos.css">
+    <title>Contactos - GRAMAR</title>
+</head>
+<body>
+<div class="container">
+    <nav id="header">
+        <div class="nav-logo">
+            <p class="nav-name">GRAMAR</p>
+            <span>.</span>
+        </div>
+        <div class="nav-menu" id="myNavMenu">
+            <ul class="nav_menu_list">
+                <li class="nav_list">
+                    <a href="inicio.html" class="nav_link">inicio</a>
+                    <div class="circle"></div>
+                </li>
+                <li class="nav_list">
+                    <a href="acerca de.html" class="nav_link">acerca de</a>
+                    <div class="circle"></div>
+                </li>
+                <li class="nav_list">
+                    <a href="productos.html" class="nav_link">producto</a>
+                    <div class="circle"></div>
+                </li>
+                <li class="nav_list">
+                    <a href="contactos.html" class="nav_link active-link">contacto</a>
+                    <div class="circle"></div>
+                </li>
+            </ul>
+        </div>
+        <div class="nav-menu-btn">
+            <img src="img2/node-js.png" onclick="myMenuFunction()">
+        </div>
+    </nav>
+
+    <section class="section" id="contact">
+        <div class="top-header">
+            <h1>Comunicate</h1>
+            <span>Do you have a project in your mind, contact me here</span>
+        </div>
+        <div class="row">
+            <div class="col">
+                <div class="contact-info">
+                    <h2>Nosotros <i class="uil uil-corner-right-down"></i></h2>
+                    <p><i class="uil uil-envelope"></i> Email: gramar@gmail.com</p>
+                    <p><i class="uil uil-phone"></i> Tel: +591 77494336</p>
+                </div>
+            </div>
+            <div class="col">
+                <div class="form-control">
+                    <div class="form-inputs">
+                        <input type="text" name="name" class="input-field" placeholder="Nombre">
+                        <img src="img2/boton-eliminar.png" class="error-icon" id="nameError" alt="Error" style="display: none;">
+                        
+                        <input type="email" name="email" class="input-field" placeholder="Correo electronico">
+                        <img src="img2/boton-eliminar.png" class="error-icon" id="emailError" alt="Error" style="display: none;">
+                    </div>
+                    <div class="text-area">
+                        <textarea name="message" placeholder="Mensaje"></textarea>
+                        <img src="img2/boton-eliminar.png" class="error-icon" id="messageError" alt="Error" style="display: none;">
+                    </div>
+                    <div class="form-button">
+                        <button class="btn" type="button">Send <i class="uil uil-message"></i></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+  </main>
+  <body>
+    <div class="main-container">
+        <div class="map-container">
+            <iframe 
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3799.513550018422!2d-63.20363052403614!3d-17.76754557463117!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x93f1e7f83ad7f1af%3A0x2c4f35a75cd60786!2sUTEPSA!5e0!3m2!1ses!2sbo!4v1725239233116!5m2!1ses!2sbo" 
+                width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </div>
+</body>
+
+    <!--::::Pie de Pagina::::::-->
+    <footer class="pie-pagina">
+        <div class="grupo-1">
+            <div class="box">
+                <figure>
+                    <a href="#">
+                        <img src="img2/letra-g.png" alt="Logo de SLee Dw">
+                    </a>
+                </figure>
+            </div>
+            <div class="box">
+                <h2>SOBRE NOSOTROS</h2>
+                <p>Avenida Noel Kempff Mercado , 3er Anillo Interno 715 entre Av. Busch Avenida San Martín y, Santa Cruz de la Sierra</p>
+                <p>Santa Cruz - Bolivia</p>
+                <p>Telf: (591 3) 3431414</p>
+                <p>Cel: 77494336</p>
+            </div>
+            <div class="box">
+                <h2>SIGUENOS</h2>
+                <div class="red-social">
+                    <a href="#"><img src="img2/facebook.png" alt="Facebook"></a>
+                    <a href="#"><img src="img2/instagram.png" alt="Instagram"></a>
+                    <a href="#"><img src="img2/telegram.png" alt="Twitter"></a>
+                    <a href="#"><img src="img2/whatsapp.png" alt="YouTube"></a>
+                </div>
+            </div>
+        </div>
+        <div class="grupo-2">
+            <small>&copy; 2024 <b>Gramar</b> - Todos los Derechos Reservados a gramar una empresa dedicada a los marmoles y alas piedras lindas.</small>
+        </div>
+    </footer>
+    <script src="main.js"></script>
+</body>
+</html>
